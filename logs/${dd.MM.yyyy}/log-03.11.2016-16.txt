@@ -1,0 +1,31 @@
+03.11.2016 16:34:50 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser text ok
+03.11.2016 16:34:50 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser text ok
+03.11.2016 16:34:50 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser text ok
+03.11.2016 16:35:43 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser text ok
+03.11.2016 16:35:43 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser text ok
+03.11.2016 16:35:43 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser text ok
+03.11.2016 16:35:43 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser text ok
+03.11.2016 16:36:49 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser Text has 4 paragraphs
+03.11.2016 16:39:19 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser 0 paragraph has 1 sentences
+03.11.2016 16:39:19 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser 0 paragraph has 2 sentences
+03.11.2016 16:39:19 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser 0 paragraph has 1 sentences
+03.11.2016 16:39:19 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser 0 paragraph has 2 sentences
+03.11.2016 16:39:19 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser 0 paragraph has 1 sentences
+03.11.2016 16:39:19 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser 0 paragraph has 1 sentences
+03.11.2016 16:39:19 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser Text has 4 paragraphs
+03.11.2016 16:40:36 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser  paragraph has 2 sentences
+03.11.2016 16:40:36 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser  paragraph has 2 sentences
+03.11.2016 16:40:36 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser  paragraph has 1 sentences
+03.11.2016 16:40:36 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser  paragraph has 1 sentences
+03.11.2016 16:40:36 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser Text has 4 paragraphs
+03.11.2016 16:43:47 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser Sentence has 25 lexemes
+03.11.2016 16:43:47 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser Sentence has 32 lexemes
+03.11.2016 16:43:47 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser Paragraph has 2 sentences
+03.11.2016 16:43:47 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser Sentence has 24 lexemes
+03.11.2016 16:43:47 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser Sentence has 30 lexemes
+03.11.2016 16:43:47 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser Paragraph has 2 sentences
+03.11.2016 16:43:47 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser Sentence has 24 lexemes
+03.11.2016 16:43:47 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser Paragraph has 1 sentences
+03.11.2016 16:43:47 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser Sentence has 1 lexemes
+03.11.2016 16:43:47 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser Paragraph has 1 sentences
+03.11.2016 16:43:47 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser Text has 4 paragraphs

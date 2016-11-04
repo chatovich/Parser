@@ -1,0 +1,1 @@
+03.11.2016 16:34:50 [main] INFO  com.chatovich.infohandling.parserchain.SentenceParser - SentenceParser text ok
