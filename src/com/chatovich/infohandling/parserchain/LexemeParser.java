@@ -26,6 +26,8 @@ public class LexemeParser extends AbstractParser {
         TextComposite parsedLexeme = new TextComposite();
         parsedLexeme.setType(CompositeType.LEXEME);
 
+
+
         Pattern pattern = Pattern.compile(WORD_REGEX);
         Matcher matcher = pattern.matcher(lexeme);
         if (matcher.find()){
@@ -51,6 +53,10 @@ public class LexemeParser extends AbstractParser {
                     parsedLexeme.addComponent(new SymbolLeaf(SymbolType.PUNCT, c));
                 }
                 //System.out.println(punctStart+"   "+word+"   "+punctEnd);
+            }
+        } else{
+            for (char c : lexeme.toCharArray()) {
+                parsedLexeme.addComponent(new SymbolLeaf(SymbolType.MATHEMATIC, c));
             }
         }
 

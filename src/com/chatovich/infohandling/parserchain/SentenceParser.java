@@ -45,9 +45,8 @@ public class SentenceParser extends AbstractParser {
                     ClientExpression client = new ClientExpression();
                     client.expToPolishNotation(matcher.group());
                     String mathResult = client.calculate().toString();
-                    for (char c : mathResult.toCharArray()) {
-                        parsedSentence.addComponent(new SymbolLeaf(SymbolType.MATHEMATIC, c));
-                    }
+                    parsedSentence.addComponent(successor.parse(mathResult));
+
                 } catch (WrongDataException e) {
                     LOGGER.log(Level.ERROR, e);
                 }

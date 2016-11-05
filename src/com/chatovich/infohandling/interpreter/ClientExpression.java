@@ -18,7 +18,7 @@ public class ClientExpression {
         parserAction = new ParserAction();
     }
 
-    public List<String> expToPolishNotation(String expression) throws WrongDataException {
+    public void expToPolishNotation(String expression) throws WrongDataException {
 
         Set<String> signs = new HashSet<>();
         signs.add("+");
@@ -27,17 +27,15 @@ public class ClientExpression {
         signs.add("/");
 
         //mathematic postfix expression in Reverse Polish Notation
-        List<String> polishExp = new ArrayList<>();
+        //List<String> polishExp = new ArrayList<>();
         //accessory stack for signs
         Stack<String> signsStack = new Stack<>();
 
         for (int i = 0; i < expression.length(); i++) {
             String symbol = expression.substring(i,i+1);
-            System.out.println("symbol "+symbol);
-            System.out.println("priority "+parserAction.getPriority(symbol));
 
             if (signs.contains(symbol)){
-                parserAction.sortingStationSymbol(listExp, signsStack, symbol, polishExp);
+                parserAction.sortingStationSymbol(listExp, signsStack, symbol);
             } else {
                 if ("(".equals(symbol)){
                     signsStack.push(symbol);
@@ -45,30 +43,26 @@ public class ClientExpression {
                 if (")".equals(symbol)){
                     do {
                         String sign = signsStack.pop();
-                        polishExp.add(sign);
+                        //polishExp.add(sign);
                         parserAction.defineOperation(sign,listExp);
                     } while(!"(".equals(signsStack.peek()));
                     signsStack.pop();
                 }
                 if (Character.isDigit(symbol.charAt(0))){
                     listExp.add(new NumberExpression(Integer.parseInt(symbol)));
-                    polishExp.add(symbol);
+                    //polishExp.add(symbol);
                 }
             }
-            System.out.println("stack");
-            signsStack.forEach(System.out::print);
-            System.out.println();
-            System.out.println("polish");
-            polishExp.forEach(System.out::print);
-            System.out.println();
+
+            //polishExp.forEach(System.out::print);
+
         }
         while (!signsStack.isEmpty()){
             String sign = signsStack.pop();
             parserAction.defineOperation(sign,listExp);
-            polishExp.add(sign);
+            //polishExp.add(sign);
         }
-        System.out.println(polishExp);
-        return polishExp;
+
     }
 
     public Double calculate (){

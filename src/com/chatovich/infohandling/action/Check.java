@@ -1,12 +1,10 @@
 package com.chatovich.infohandling.action;
 
+import com.chatovich.infohandling.entity.TextComponent;
 import com.chatovich.infohandling.exception.WrongDataException;
 import com.chatovich.infohandling.interpreter.ClientExpression;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -23,14 +21,24 @@ public class Check {
 
     public static void main(String[] args) throws WrongDataException {
 
-        ParserAction parserAction = new ParserAction();
-        //System.out.println(parserAction.calcExpression("(0-(2*2*(3*(2-1/2*2)-2)-10/2))*(++5)"));
-        //System.out.println(calc("(0-(2*2*(3*(2-1/2*2)-2)-10/2))"));
-        //System.out.println(parserAction.sortingStation("3+(4++)"));
-        ClientExpression client = new ClientExpression();
-        client.expToPolishNotation("5*(1*2*(3*(4*(5-4)-3)-2)-1)");
-        Number mathResult = client.calculate();
-        System.out.println("!!!"+mathResult.toString());
+        List<String> list = new ArrayList<>();
+        ManipulateComponent manipulator = new ManipulateComponent();
+        list.add("mama");
+        list.add("papa");
+        list.add("bapa");
+        list.add("taaaaa");
+        list.add("aaaaaa");
+        Collections.sort(list);
+        list.forEach(System.out::println);
+
+//        ParserAction parserAction = new ParserAction();
+//        //System.out.println(parserAction.calcExpression("(0-(2*2*(3*(2-1/2*2)-2)-10/2))*(++5)"));
+//        //System.out.println(calc("(0-(2*2*(3*(2-1/2*2)-2)-10/2))"));
+//        //System.out.println(parserAction.sortingStation("3+(4++)"));
+//        ClientExpression client = new ClientExpression();
+//        client.expToPolishNotation("5*(1*2*(3*(4*(5-4)-3)-2)-1)");
+//        Number mathResult = client.calculate();
+//        System.out.println("!!!"+mathResult.toString());
     }
 
     public static String calc (String line){

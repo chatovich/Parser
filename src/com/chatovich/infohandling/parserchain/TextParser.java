@@ -2,6 +2,7 @@ package com.chatovich.infohandling.parserchain;
 
 import com.chatovich.infohandling.entity.TextComponent;
 import com.chatovich.infohandling.entity.TextComposite;
+import com.chatovich.infohandling.type.CompositeType;
 import org.apache.logging.log4j.Level;
 
 import java.util.regex.Matcher;
@@ -23,6 +24,7 @@ public class TextParser extends AbstractParser {
     public TextComposite parse(String text){
 
         TextComposite parsedText = new TextComposite();
+        parsedText.setType(CompositeType.TEXT);
 
         Pattern pattern = Pattern.compile(PARAGRAPH_REGEX);
         Matcher matcher = pattern.matcher(text);

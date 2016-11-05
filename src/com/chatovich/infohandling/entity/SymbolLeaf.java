@@ -6,7 +6,7 @@ import com.chatovich.infohandling.type.SymbolType;
 /**
  * Created by Yultos_ on 01.11.2016
  */
-public class SymbolLeaf implements TextComponent {
+public class SymbolLeaf implements TextComponent, Cloneable {
     private SymbolType symbolType;
     private Character symbol;
 
@@ -20,7 +20,12 @@ public class SymbolLeaf implements TextComponent {
         return symbolType;
     }
 
-    public char getSymbol() {
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
+
+    public Character getSymbol() {
         return symbol;
     }
 
@@ -28,7 +33,7 @@ public class SymbolLeaf implements TextComponent {
         this.symbolType = symbolType;
     }
 
-    public void setSymbol(char symbol) {
+    public void setSymbol(Character symbol) {
         this.symbol = symbol;
     }
 
