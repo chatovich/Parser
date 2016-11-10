@@ -31,12 +31,4 @@ public abstract class AbstractParser {
 
     abstract public TextComposite parse(String text);
 
-    public void chain(TextComponent textComponent){
-
-        if (!lines.getLines().isEmpty()){
-            lines.getLines().forEach(a -> successor.chain(a));
-
-        }
-
-    }
 }

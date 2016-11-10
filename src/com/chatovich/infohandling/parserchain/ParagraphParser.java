@@ -1,6 +1,5 @@
 package com.chatovich.infohandling.parserchain;
 
-import com.chatovich.infohandling.entity.TextComponent;
 import com.chatovich.infohandling.entity.TextComposite;
 import com.chatovich.infohandling.type.CompositeType;
 import org.apache.logging.log4j.Level;
@@ -29,14 +28,11 @@ public class ParagraphParser extends AbstractParser {
         Matcher matcher = pattern.matcher(paragraph);
         while (matcher.find()){
             String sentence = matcher.group().trim();
-            //System.out.println("!!!"+sentence);
             if (!sentence.isEmpty()) {
                 parsedParagraph.addComponent(successor.parse(sentence));
             }
 
         }
-        LOGGER.log(Level.INFO,"Paragraph has "+parsedParagraph.getLines().size()+" sentences");
-
         return parsedParagraph;
     }
 }

@@ -35,15 +35,17 @@ public class ParserRunner {
 
         TextComposite parsedText = textParser.parse(text);
         LOGGER.log(Level.INFO, "Initial text:");
-        LOGGER.log(Level.INFO, parsedText);
+        LOGGER.log(Level.INFO, parsedText+"\n");
 
         LOGGER.log(Level.INFO, "Sentences by lexemes' quantity order:");
         manipulator.sortSentencesByLexeme(parsedText).forEach(a -> LOGGER.log(Level.INFO, a));
+        LOGGER.log(Level.INFO,"\n");
 
-        LOGGER.log(Level.INFO, "Lexemes sorted by the quantity of the specifed symbol and than in alphabetic order:");
+        LOGGER.log(Level.INFO, "Lexemes sorted by the quantity of the specifed symbol (a) and than in alphabetic order:");
         manipulator.sortLexemes(parsedText, 'a').forEach(a-> LOGGER.log(Level.INFO, a));
+        LOGGER.log(Level.INFO,"\n");
 
-        LOGGER.log(Level.INFO, "Text without lexemes of specified length:");
+        LOGGER.log(Level.INFO, "Text without lexemes of specified length (2) that begin with specified symbol (i):");
         manipulator.deleteLexemes(parsedText, 'i', 2).getLines().forEach(a-> LOGGER.log(Level.INFO, a));
 
     }

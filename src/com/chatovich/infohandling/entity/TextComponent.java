@@ -8,4 +8,5 @@ import com.chatovich.infohandling.type.ComponentType;
 public interface TextComponent {
 
     ComponentType getType();
+    String toString();
 }

@@ -25,6 +25,7 @@ public class ParserAction {
     static final String PARENTHESES_REGEX = "(\\()[\\d\\/\\*\\-\\+\\(\\)]+(\\))";
     static final String MATH_ELEMENT_REGEX = "[\\d]+|[\\+\\-\\*\\/]+";
 
+
     public String readFile (String filename){
 
         String text = "";
@@ -49,27 +50,21 @@ public class ParserAction {
 
     public void sortingStationSymbol(List<AbstractMathExpression> listExp, Stack<String> signsStack, String symbol) throws WrongDataException {
         if (!signsStack.isEmpty()) {
-            if (signsStack.peek().equals(symbol)&&"-".equals(symbol)||signsStack.peek().equals(symbol)&&"+".equals(symbol)){
-                    signsStack.pop();
-                    String unary = symbol + symbol;
-                    signsStack.push(unary);
-            } else {
+
                 if (getPriority(symbol)>getPriority(signsStack.peek())){
                     signsStack.push(symbol);
 
                 } else {
                     String sign = signsStack.pop();
-                    //polishExp.add(sign);
                     defineOperation(sign, listExp);
                     signsStack.push(symbol);
                 }
-            }
         } else {
             signsStack.push(symbol);
         }
     }
 
-    public int getPriority(String sign){
+    public int getPriority(String sign) {
         int priority = 0;
         switch (sign){
             case "+": priority = 1;
@@ -94,12 +89,31 @@ public class ParserAction {
                 break;
             case "/": listExp.add(new DivideMathExpression());
                 break;
-            case "++": listExp.add(new IncrementExpression());
-                break;
-            case "--": listExp.add(new DecrementExpression());
-                break;
             default: throw new WrongDataException("Can't define the sign: "+sign);
         }
+    }
+
+    public String calcIncrDecr(String exp, Matcher matcher){
+
+        String result=exp;
+        if (matcher.find()){
+            int end = matcher.end();
+            int start = matcher.start();
+            if (exp.length()>end&&Character.isDigit(exp.charAt(end))){
+                int num=0;
+                if ("++".equals(matcher.group())) {
+                    num = Integer.parseInt(((Character) exp.charAt(end)).toString()) + 1;
+                } else{
+                    num = Integer.parseInt(((Character) exp.charAt(end)).toString()) - 1;
+                }
+                result = exp.replace(exp.substring(start,start+3),String.valueOf(num));
+            } else{
+                if (start>0&&Character.isDigit(exp.charAt(start-1))){
+                    result = exp.replace(exp.substring(start, end),"");
+                }
+            }
+        }
+        return result;
     }
 
 

@@ -1,10 +1,9 @@
 package com.chatovich.infohandling.parserchain;
 
-import com.chatovich.infohandling.entity.TextComponent;
+
 import com.chatovich.infohandling.entity.TextComposite;
 import com.chatovich.infohandling.type.CompositeType;
 import org.apache.logging.log4j.Level;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -30,17 +29,9 @@ public class TextParser extends AbstractParser {
         Matcher matcher = pattern.matcher(text);
         while (matcher.find()){
             String paragraph = matcher.group().trim();
-            //System.out.println("!!!"+paragraph);
             parsedText.addComponent(successor.parse(paragraph));
 
         }
-        LOGGER.log(Level.INFO,"Text has "+parsedText.getLines().size()+" paragraphs");
-
         return parsedText;
-    }
-
-    @Override
-    public void chain (TextComponent textComponent){
-        System.out.println("symbol");
     }
 }

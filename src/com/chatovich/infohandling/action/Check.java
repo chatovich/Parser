@@ -21,24 +21,29 @@ public class Check {
 
     public static void main(String[] args) throws WrongDataException {
 
-        List<String> list = new ArrayList<>();
-        ManipulateComponent manipulator = new ManipulateComponent();
-        list.add("mama");
-        list.add("papa");
-        list.add("bapa");
-        list.add("taaaaa");
-        list.add("aaaaaa");
-        Collections.sort(list);
-        list.forEach(System.out::println);
+//
+        ParserAction parserAction = new ParserAction();
+//        String expression = "--5+(--4)";
+//        Pattern incrPattern = Pattern.compile("\\+\\+");
+//        Matcher incrMatcher = incrPattern.matcher(expression);
+//        while (incrMatcher.find()){
+//            Matcher matcher = incrPattern.matcher(expression);
+//            expression = parserAction.calcIncrDecr(expression, matcher);
+//        }
+//
+//        Pattern decrPattern = Pattern.compile("\\-\\-");
+//        Matcher decrMatcher = decrPattern.matcher(expression);
+//        while (decrMatcher.find()){
+//            Matcher matcher = decrPattern.matcher(expression);
+//            expression = parserAction.calcIncrDecr(expression, matcher);
+//        }
+//        System.out.println(expression);
 
-//        ParserAction parserAction = new ParserAction();
-//        //System.out.println(parserAction.calcExpression("(0-(2*2*(3*(2-1/2*2)-2)-10/2))*(++5)"));
-//        //System.out.println(calc("(0-(2*2*(3*(2-1/2*2)-2)-10/2))"));
-//        //System.out.println(parserAction.sortingStation("3+(4++)"));
-//        ClientExpression client = new ClientExpression();
-//        client.expToPolishNotation("5*(1*2*(3*(4*(5-4)-3)-2)-1)");
-//        Number mathResult = client.calculate();
-//        System.out.println("!!!"+mathResult.toString());
+
+
+        ClientExpression client = new ClientExpression();
+        client.expToPolishNotation("13+2*21");
+        System.out.println(client.calculate().toString());
     }
 
     public static String calc (String line){

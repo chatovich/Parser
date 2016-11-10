@@ -1,156 +1,122 @@
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.parserchain.AbstractParser - AbstractParser Sentence has 21 lexemes 
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.parserchain.AbstractParser - AbstractParser Sentence has 31 lexemes 
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.parserchain.AbstractParser - AbstractParser Paragraph has 2 sentences
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.parserchain.AbstractParser - AbstractParser Sentence has 24 lexemes 
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.parserchain.AbstractParser - AbstractParser Sentence has 30 lexemes 
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.parserchain.AbstractParser - AbstractParser Paragraph has 2 sentences
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.parserchain.AbstractParser - AbstractParser Sentence has 19 lexemes 
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.parserchain.AbstractParser - AbstractParser Paragraph has 1 sentences
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.parserchain.AbstractParser - AbstractParser Sentence has 1 lexemes 
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.parserchain.AbstractParser - AbstractParser Paragraph has 1 sentences
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.parserchain.AbstractParser - AbstractParser Text has 4 paragraphs
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Initial text:
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner 
-     It has survived not only five centuries, but also the leap into 7.0 electronic 2.0 typesetting, remaining 8.0 essentially -3.0 unchanged. It was popularised in the 5.0 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
-     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using 18.0 Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
-     It is a 0.0 established fact that a reader will be of a page when looking at its layout. 
-     Hello. 
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Sentences by lexemes' quantity order:
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Hello. 
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner It is a 0.0 established fact that a reader will be of a page when looking at its layout. 
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner It has survived not only five centuries, but also the leap into 7.0 electronic 2.0 typesetting, remaining 8.0 essentially -3.0 unchanged. 
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner The point of using 18.0 Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner It was popularised in the 5.0 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Lexemes sorted by the quantity of the specifed symbol and than in alphabetic order:
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner PageMaker
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner passages,
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner readable
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner readable
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner a
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner a
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner a
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner a
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner a
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner a
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner a
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Aldus
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner also
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner and
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner as
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner at
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner at
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner containing
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner distracted
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner essentially
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner established
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner established
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner fact
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner fact
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner has
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner has
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner layout.
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner layout.
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner leap
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Letraset
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner making
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner normal
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner page
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner page
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner popularised
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner reader
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner reader
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner release
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner remaining
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner software
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner that
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner that
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner that
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner unchanged.
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner was
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner 'Content
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner -3.0
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner 0.0
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner 18.0
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner 2.0
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner 5.0
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner 7.0
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner 8.0
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner be
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner be
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner but
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner by
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner centuries,
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner content
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner content
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner desktop
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner distribution
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner electronic
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner English.
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner five
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Hello.
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner here',
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner here,
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner in
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner including
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner into
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Ipsum
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Ipsum
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Ipsum.
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner is
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner is
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner is
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner It
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner It
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner It
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner it
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner it
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner It
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner its
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner its
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner letters,
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner like
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner like
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner long
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner look
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner looking
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner looking
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Lorem
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Lorem
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner more
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner more-or-less
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner not
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner of
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner of
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner of
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner of
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner of
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner of
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner only
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner opposed
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner point
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner publishing
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner recently
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner sheets
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner survived
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner the
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner the
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner the
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner the
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner The
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner to
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner typesetting,
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner using
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner using
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner versions
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner when
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner when
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner will
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner will
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner with
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner with
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Text without lexemes of specified length:
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner has survived not only five centuries, but also the leap into 7.0 electronic 2.0 typesetting, remaining 8.0 essentially -3.0 unchanged. was popularised the 5.0 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using 18.0 Ipsum that has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making look like readable English. 
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner is a 0.0 established fact that a reader will be of a page when looking at its layout. 
-05.11.2016 21:44:24 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Hello. 
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Aldus
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner also
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner and
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner as
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner at
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner at
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner containing
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner distracted
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner essentially
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner established
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner established
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner fact
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner fact
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner has
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner has
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner layout.
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner layout.
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner leap
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Letraset
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner making
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner normal
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner page
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner page
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner popularised
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner reader
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner reader
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner release
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner remaining
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner software
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner that
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner that
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner that
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner unchanged.
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner was
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner 'Content
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner -3.0
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner 1200.0
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner 16.0
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner 2.0
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner 5.0
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner 6.0
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner 8.0
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner be
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner be
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner but
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner by
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner centuries,
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner content
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner content
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner desktop
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner distribution
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner electronic
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner English.
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner five
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Hello.
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner here',
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner here,
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner in
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner including
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner into
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Ipsum
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Ipsum
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Ipsum.
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner is
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner is
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner is
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner It
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner It
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner It
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner it
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner it
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner It
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner its
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner its
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner letters,
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner like
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner like
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner long
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner look
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner looking
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner looking
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Lorem
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Lorem
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner more
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner more-or-less
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner not
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner of
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner of
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner of
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner of
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner of
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner of
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner only
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner opposed
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner point
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner publishing
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner recently
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner sheets
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner survived
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner the
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner the
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner the
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner the
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner The
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner to
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner typesetting,
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner using
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner using
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner versions
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner when
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner when
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner will
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner will
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner with
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner with
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner 
+
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Text without lexemes of specified length:
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner has survived not only five centuries, but also the leap into 16.0 electronic 2.0 typesetting, remaining 8.0 essentially -3.0 unchanged. was popularised the 5.0 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using 6.0 Ipsum that has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making look like readable English. 
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner is a 1200.0 established fact that a reader will be of a page when looking at its layout. 
+10.11.2016 15:01:44 [main] INFO  com.chatovich.infohandling.runner.ParserRunner - ParserRunner Hello. 

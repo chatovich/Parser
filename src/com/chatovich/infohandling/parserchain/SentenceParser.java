@@ -22,7 +22,6 @@ public class SentenceParser extends AbstractParser {
 
     private static final String LEXEME_REGEX = "([^\\s]+)";
     private static final String MATH_REGEX = "([^A-z])+([\\d\\/\\*\\-\\+\\(\\)])+([^A-z])+";
-    private ParserAction parserAction = new ParserAction();
 
     public SentenceParser(AbstractParser successor){
         lines = new TextComposite();
@@ -55,7 +54,6 @@ public class SentenceParser extends AbstractParser {
             }
 
         }
-        LOGGER.log(Level.INFO,"Sentence has "+parsedSentence.getLines().size()+" lexemes ");
         return parsedSentence;
 
     }

@@ -1,11 +1,9 @@
 package com.chatovich.infohandling.action;
 
-import com.chatovich.infohandling.entity.SymbolLeaf;
 import com.chatovich.infohandling.entity.TextComponent;
 import com.chatovich.infohandling.entity.TextComposite;
 import com.chatovich.infohandling.type.ComponentType;
 import com.chatovich.infohandling.type.CompositeType;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -16,6 +14,7 @@ import java.util.List;
  */
 public class ManipulateComponent {
 
+    //sort sentences by the quantity of lexems in ascending order
     public List<TextComponent> sortSentencesByLexeme (TextComponent text){
 
         List<TextComponent> list = getComponentsByType(text, CompositeType.SENTENCE);
@@ -31,6 +30,7 @@ public class ManipulateComponent {
         return list;
     }
 
+    //returns list of components of certain type
     public List<TextComponent> getComponentsByType (TextComponent text, ComponentType type){
 
         List<TextComponent> resultList = new ArrayList<>();
@@ -48,6 +48,7 @@ public class ManipulateComponent {
         return resultList;
     }
 
+    //delete lexemes of certain length that begin with certain letter
     public TextComposite deleteLexemes(TextComponent text, Character letter, int lenght) {
 
         TextComposite resultText = (TextComposite)text;
@@ -65,26 +66,27 @@ public class ManipulateComponent {
         return resultText;
     }
 
+    //sort lexemes by quantity of certain character in decreasing order, if equal - in alphabetic order
     public List<TextComponent> sortLexemes (TextComponent text, Character character){
 
         List<TextComponent> list = getComponentsByType(text, CompositeType.LEXEME);
 
-//        Comparator<TextComponent> comparator = Comparator.comparing(TextComponent->calcSymbolQuantity(TextComponent, character));
-//        comparator.thenComparing(TextComponent->calcSymbolQuantity(TextComponent, 'e'));
-//        Collections.sort(list, comparator.reversed());
+        Comparator<TextComponent> comparator = Comparator.comparing(TextComponent->calcSymbolQuantity(TextComponent, character));
+        comparator = comparator.reversed().thenComparing((a,b)-> a.toString().compareToIgnoreCase(b.toString()));
+        Collections.sort(list, comparator);
 
-        Collections.sort(list, new Comparator<TextComponent>() {
-            @Override
-            public int compare(TextComponent o1, TextComponent o2) {
-                int o1symbols = calcSymbolQuantity(o1, character);
-                int o2symbols = calcSymbolQuantity(o2, character);
-                if (o1symbols!=o2symbols){
-                    return o2symbols-o1symbols;
-                } else {
-                    return o1.toString().compareToIgnoreCase(o2.toString());
-                }
-            }
-        });
+//        Collections.sort(list, new Comparator<TextComponent>() {
+//            @Override
+//            public int compare(TextComponent o1, TextComponent o2) {
+//                int o1symbols = calcSymbolQuantity(o1, character);
+//                int o2symbols = calcSymbolQuantity(o2, character);
+//                if (o1symbols!=o2symbols){
+//                    return o2symbols-o1symbols;
+//                } else {
+//                    return o1.toString().compareToIgnoreCase(o2.toString());
+//                }
+//            }
+//        });
         return list;
     }
 
